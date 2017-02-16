@@ -2,7 +2,6 @@ package components.executor.impl;
 
 import components.executor.IterateDirectoryExecutor;
 import components.models.PathInfo;
-import org.hamcrest.CoreMatchers;
 import org.springframework.stereotype.Component;
 
 import java.io.File;
