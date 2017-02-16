@@ -1,0 +1,7 @@
+.idea
+*.txt
+*.iml
+*.txt
+*.jar
+src/test/*
+target
