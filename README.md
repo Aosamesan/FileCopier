@@ -1,9 +1,13 @@
 # FileCopier
 ## 매우 귀찮은 작업
 우리는 다음과 같은 작업을 해야할 때가 있습니다.
+
 `foo/1/bar/baz.txt, foo/2/bar/baz.txt, foo/3/bar/baz.txt, foo/5/bar/baz.txt`
+
 를
+
 `foo/1/bar2/baz.txt, foo/2/bar2/baz.txt, foo/3/bar2/baz.txt, foo/5/bar/baz.txt`
+
 로 복사!
 
 이는 매우 귀찮은 작업이 아닐 수 없습니다.
@@ -29,7 +33,7 @@
 ## 작동
 간단히 Copy버튼을 누르세요! 작업이 완료되지 않으면 예외메시지가 나오고, 작업이 완료된다면 log파일이 남습니다.
 
-log파일에는 처리가 완료된 regexPart들이 기록됩니다.
+log파일에는 처리가 완료된 regex 부분들이 기록됩니다.
 
 위의 예시에서 생성된 로그파일은
 ```
